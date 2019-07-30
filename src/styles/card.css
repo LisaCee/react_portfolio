@@ -1,0 +1,14 @@
+.item {
+    min-height: 300px;
+    min-width: 350px;
+    background: white;
+    margin-right: 5%;
+    border: 1px solid black;
+    display: flex;
+}
+
+.item img {
+    min-height: 300px;
+    max-width: 325px;
+    margin: 0 auto;
+}

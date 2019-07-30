@@ -1,0 +1,11 @@
+#header {
+    min-height: 20vh;
+    background: teal;
+    opacity: 0.5;
+}
+
+img {
+    max-width: 15%;
+    text-align: left;
+    padding: 3%;
+}
