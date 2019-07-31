@@ -1,13 +1,13 @@
 .item {
     /* background: white; */
     display: flex;
+    align-content: space-around;
+    margin-right: 50px;
 }
 
 .item img {
-    /* min-height: 300px; */
     max-width: 355px;
     min-height: 225px;
-    /* margin: 0 auto; */
     align-items: center;
     border: 1rem solid white;
     box-sizing: content-box;

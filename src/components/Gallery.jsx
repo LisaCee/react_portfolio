@@ -2,12 +2,19 @@ import React from "react";
 import Card from "./Card";
 import "../styles/gallery.css";
 
+import { Container } from 'react-bootstrap';
+
+
 const Gallery = () => {
     return (
-        <div className="gallery">
-            <Card image="https://www.lisaceedesign.com/images/movie-time-machine.jpg" />
-            <Card image="https://pmcvariety.files.wordpress.com/2016/04/prince-dead1.jpg?w=1000" />
-        </div>
+        <Container>
+            <div className="gallery">
+                <Card image={require("../images/movie-time-machine.jpg")} />
+                <Card image={require("../images/book-finder.jpg")} />
+                <Card image={require("../images/knowledge-rocket.jpg")} />
+                <Card image={require("../images/lambda-notes.jpg")} />
+            </div>
+        </Container>
     );
 };
 
