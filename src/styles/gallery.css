@@ -1,24 +1,24 @@
-i.fab {
-    color: black;
-}
-
-#moviedb {
-    width: 6%;
-}
-
-#netlify {
-    width: 6%;
-}
-
 .gallery {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    /* padding: 5%; */
 }
 
-div.details {
+i.fab {
+    padding: 3%;
+    color: black;
+}
+
+#moviedb {
+    width: 9%;
+    height: 1%;
+    margin: 3% 0 0 3%;
+}
+
+.details {
+    display: flex;
     min-height: 50px;
+    justify-content: center;
 }
 
 @media (min-width: 992px) {
