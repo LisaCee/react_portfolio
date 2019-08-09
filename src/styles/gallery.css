@@ -1,9 +1,28 @@
+i.fab {
+    color: black;
+}
+
+#moviedb {
+    width: 6%;
+}
+
+#netlify {
+    width: 6%;
+}
+
 .gallery {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    /* padding: 5%; */
 }
 
-.details {
-    display: none;
+div.details {
+    min-height: 50px;
+}
+
+@media (min-width: 992px) {
+    .item {
+        margin: 10px 50px 50px 0;
+    }
 }
