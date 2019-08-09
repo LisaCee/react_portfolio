@@ -27,33 +27,33 @@ const Gallery = () => {
               <Card image={require('../images/book-finder.jpg')} />
             </a>
             <div className='details'>
-              <i className='fab fa-react' />
-              <i className='fab fa-css3' />
-              <i className='fab fa-bootstrap' />
-              <i className='fab fa-google' />
-              <i className='fab fa-github' />
+              <i className='fab fa-react fa-2x' />
+              <i className='fab fa-css3 fa-2x' />
+              <i className='fab fa-bootstrap fa-2x' />
+              <i className='fab fa-google fa-2x' />
+              <i className='fab fa-github fa-2x' />
             </div>
 
             <a href='https://infallible-euler-24eb8a.netlify.com/' target='_'>
               <Card image={require('../images/knowledge-rocket.jpg')} />
             </a>
             <div className='details'>
-              <i className='fab fa-react' />
-              <i className='fab fa-css3' />
-              <i className='fab fa-bootstrap' />
-              <i className='fab fa-github' />
-              <i className='fab fa-python' />
+              <i className='fab fa-react fa-2x' />
+              <i className='fab fa-css3 fa-2x' />
+              <i className='fab fa-bootstrap fa-2x' />
+              <i className='fab fa-github fa-2x' />
+              <i className='fab fa-python fa-2x' />
             </div>
 
             <a href='https://infallible-euler-24eb8a.netlify.com/'>
               <Card image={require('../images/lambda-notes.jpg')} />
             </a>
             <div className='details'>
-              <i className='fab fa-react' />
-              <i className='fab fa-less' />
-              <i className='fab fa-bootstrap' />
-              <i className='fab fa-github' />
-              <i className='fab fa-python' />
+              <i className='fab fa-react fa-2x' />
+              <i className='fab fa-less fa-2x' />
+              <i className='fab fa-bootstrap fa-2x' />
+              <i className='fab fa-github fa-2x' />
+              <i className='fab fa-python fa-2x' />
             </div>
           </Col>
         </Row>
