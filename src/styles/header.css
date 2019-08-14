@@ -36,8 +36,8 @@ h3 {
   a.d-inline.align-top.navbar-brand {
     max-width: 65%;
   }
-  p {
+  /* p {
     display: inline-block;
     font-size: 0.5rem;
-  }
+  } */
 }

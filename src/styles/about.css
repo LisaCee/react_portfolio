@@ -2,7 +2,43 @@ h1 {
     color: #8ad1d8;
 }
 
-/* 
-p {
-    display: inline;
+/* ul {
+    border: 1px solid black;
+} */
+
+ul li {
+    border: 1px solid blue;
+}
+
+ul.feature-icons li {
+    display: inline-block;
+    text-decoration: none;
+    margin: 0 0 1.6875em 0;
+    padding: 0.35em 0 0 3.5em;
+    position: relative;
+    vertical-align: top;
+    width: 48%;
+}
+
+ul.feature-icons li:before {
+    background: #17a2b8;
+    border-radius: 100%;
+    color: white;
+    display: block;
+    height: 2.5em;
+    left: 0;
+    line-height: 2.5em;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 2.5em;
+}
+
+/* li.fab text {
+    font-family: sans-serif;
+}
+
+li.fas text {
+    font-family: sans-serif;
+    font-weight: normal;
 } */
