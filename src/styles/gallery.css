@@ -1,3 +1,7 @@
+.col {
+    border: 1px solid blue;
+}
+
 .gallery {
     display: flex;
     flex-wrap: wrap;
@@ -7,22 +11,18 @@
 i.fab {
     padding: 3%;
     color: black;
+    margin: 0.5%;
 }
 
 #moviedb {
-    width: 9%;
+    width: 4%;
     height: 1%;
-    margin: 3% 0 0 3%;
+    margin: 2.5% 0 0 3%;
 }
 
-.details {
+div.details {
     display: flex;
     min-height: 50px;
     justify-content: center;
-}
-
-@media (min-width: 992px) {
-    .item {
-        margin: 10px 50px 50px 0;
-    }
+    /* max-width: 300px; */
 }
