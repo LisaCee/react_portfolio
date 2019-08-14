@@ -23,13 +23,25 @@ const About = () => {
             development, Lisa has a full stack education in order to better
             understand what makes a site work and how she can make it better.
           </p>
-          <ul className='feature-icons'>
-            <li className='fab fa-react'>React</li>
-            <li className='fas fa-users'>Works well solo or with a team</li>
-            <li className='fas fa-code'>HTML & CSS</li>
-            <li className='fab fa-google'>Excellent Google-fu</li>
-            <li className='fab fa-js-square'>JavaScript</li>
-            <li className='fas fa-music'>Prince fan</li>
+          <ul>
+            <li className='fab fa-react'>
+              <span className='icon'>React</span>
+            </li>
+            <li className='fas fa-users'>
+              <span className='icon'>Works well solo or with a team</span>
+            </li>
+            <li className='fas fa-code'>
+              <span className='icon'>HTML & CSS</span>
+            </li>
+            <li className='fab fa-google'>
+              <span className='icon'>Excellent Google-fu</span>
+            </li>
+            <li className='fab fa-js-square'>
+              <span className='icon'>JavaScript</span>
+            </li>
+            <li className='fas fa-music'>
+              <span className='icon'>Prince fan</span>
+            </li>
           </ul>
         </div>
       </Container>

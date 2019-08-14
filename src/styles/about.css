@@ -2,15 +2,7 @@ h1 {
     color: #8ad1d8;
 }
 
-/* ul {
-    border: 1px solid black;
-} */
-
 ul li {
-    border: 1px solid blue;
-}
-
-ul.feature-icons li {
     display: inline-block;
     text-decoration: none;
     margin: 0 0 1.6875em 0;
@@ -20,7 +12,7 @@ ul.feature-icons li {
     width: 48%;
 }
 
-ul.feature-icons li:before {
+ul li:before {
     background: #17a2b8;
     border-radius: 100%;
     color: white;
@@ -34,11 +26,7 @@ ul.feature-icons li:before {
     width: 2.5em;
 }
 
-/* li.fab text {
-    font-family: sans-serif;
-}
-
-li.fas text {
+.icon {
     font-family: sans-serif;
     font-weight: normal;
-} */
+}
