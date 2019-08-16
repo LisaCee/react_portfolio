@@ -3,12 +3,12 @@ h3 {
 }
 
 form {
-    padding: 1%;
+    padding: 3%;
     background-color: white;
 }
 
 #name, #email, #subject, #message {
-    width: 80%;
+    width: 100%;
     font-size: 1rem;
     border: 1px solid grey;
     margin: 1% 5%;
@@ -26,5 +26,11 @@ ul {
 
 div.actions {
     /* form button container */
-    border: 1px solid red;
+    width: 100%;
+    margin: 0 auto;
+}
+
+button {
+    max-width: 70%;
+    margin: 0 auto;
 }
