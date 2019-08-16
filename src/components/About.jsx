@@ -33,7 +33,7 @@ const About = () => {
             development, Lisa has a full stack education in order to better
             understand what makes a site work and how she can make it better.
           </p> */}
-          <ul>
+          <ul className='iconSkills'>
             <li className='fab fa-react'>
               <span className='icon'>React</span>
             </li>
