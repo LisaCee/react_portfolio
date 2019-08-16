@@ -13,7 +13,7 @@ const Gallery = () => {
         <Row>
           <Col>
             <a href='https://movie-time-machine.netlify.com/' target='_'>
-              <Card image={require('../images/movie-time-machine.jpg')} />
+              <Card image={require('../images/movieTimeMachine.gif')} />
             </a>
             <div className='details'>
               <i className='fab fa-react fa-lg' />
@@ -25,7 +25,7 @@ const Gallery = () => {
           </Col>
           <Col>
             <a href='https://lisacee-book-finder.netlify.com/' target='_'>
-              <Card image={require('../images/book-finder.jpg')} />
+              <Card image={require('../images/book-finder.gif')} />
             </a>
             <div className='details'>
               <i className='fab fa-react fa-lg' />
@@ -37,7 +37,7 @@ const Gallery = () => {
           </Col>
           <Col>
             <a href='https://infallible-euler-24eb8a.netlify.com/' target='_'>
-              <Card image={require('../images/knowledge-rocket.jpg')} />
+              <Card image={require('../images/knowledge-rocket.gif')} />
             </a>
             <div className='details'>
               <i className='fab fa-react fa-lg' />
@@ -49,7 +49,7 @@ const Gallery = () => {
           </Col>
           <Col>
             <a href='https://infallible-euler-24eb8a.netlify.com/'>
-              <Card image={require('../images/lambda-notes.jpg')} />
+              <Card image={require('../images/lambda-notes.gif')} />
             </a>
             <div className='details'>
               <i className='fab fa-react fa-lg' />
