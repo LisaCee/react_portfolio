@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/contact.css';
 
-import { Container, Row, Col, Button, Form } from 'react-bootstrap';
+import { Container, Row, Button, Form } from 'react-bootstrap';
 
 const Contact = () => {
   return (
@@ -49,10 +49,10 @@ const Contact = () => {
             rows='6'
           />
 
-          <div class='actions'>
+          <div className='actions'>
             <Button
               type='submit'
-              class='primary submit'
+              className='primary submit'
               value='Send Message'
               block
             >
