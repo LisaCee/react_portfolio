@@ -1,3 +1,30 @@
+h3 {
+    color: #8ad1d8;
+}
+
+form {
+    padding: 1%;
+    background-color: white;
+}
+
+#name, #email, #subject, #message {
+    width: 80%;
+    font-size: 1rem;
+    border: 1px solid grey;
+    margin: 1% 5%;
+}
+
+input, textarea {
+    padding: 1%;
+    margin: 2%;
+    font-size: 1rem;
+}
+
 ul {
     list-style-type: none;
+}
+
+div.actions {
+    /* form button container */
+    border: 1px solid red;
 }

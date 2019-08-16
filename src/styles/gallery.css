@@ -1,28 +1,33 @@
-.col {
-    border: 1px solid blue;
-}
-
 .gallery {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-i.fab {
-    padding: 3%;
-    color: black;
-    margin: 0.5%;
-}
-
-#moviedb {
-    width: 4%;
-    height: 1%;
-    margin: 2.5% 0 0 3%;
-}
-
 div.details {
     display: flex;
     min-height: 50px;
-    justify-content: center;
-    /* max-width: 300px; */
+    justify-content: space-evenly;
+    max-width: 300px;
+}
+
+i.fab {
+    padding: 3%;
+    color: black;
+    margin-right: 2%;
+    font-size: 1.5rem;
+}
+
+#moviedb {
+    width: 7%;
+    height: 1%;
+    margin: 2% 0 0 3%;
+}
+
+@media (min-width: 678px) {
+    #moviedb {
+        width: 3%;
+        height: 1%;
+        margin: 2.5% 2% 0 3%;
+    }
 }

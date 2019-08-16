@@ -1,5 +1,9 @@
-h1 {
+h1, h3 {
     color: #8ad1d8;
+}
+
+p {
+    font-size: 1rem;
 }
 
 ul li {
@@ -29,4 +33,5 @@ ul li:before {
 .icon {
     font-family: sans-serif;
     font-weight: normal;
+    font-size: 1rem;
 }
