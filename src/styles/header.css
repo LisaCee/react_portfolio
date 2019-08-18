@@ -1,8 +1,6 @@
 .navbar {
-  background-image: linear-gradient(#97C5B8, #d2f2e9);
-  display: flex;
+  background: #417C89;
   min-width: 100vw;
-  justify-content: center;
   align-items: flex-end;
 }
 
@@ -19,13 +17,31 @@ a.nav-link {
 }
 
 .navbar-brand img {
-  max-width: 30%;
-  margin: 5%;
+  width: 150%;
 }
 
 h3 {
   display: inline;
+  color: white !important;
+}
+
+p {
+  display: inline;
   color: white;
+}
+
+#headerDesc {
+  display: none;
+}
+
+button#nav-button.navbar-toggler {
+  background-color: white !important;
+}
+
+a.nav-link {
+  margin: 1%;
+  text-align: end;
+  color: white !important;
 }
 
 @media (min-width: 768px) {
