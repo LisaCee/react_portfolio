@@ -9,19 +9,12 @@ const Header = () => {
       <Navbar expand='md'>
         <Navbar.Brand href='#home' className='d-inline align-top'>
           <Row>
-            <Col xs={3}>
+            <Col>
               <img src={Logo} alt='logo' />
             </Col>
             <Col>
-              <h3>Lisa Canini</h3>
-              <br />
-              <p>
-                Full stack developer{' '}
-                <span id='headerDesc'>
-                  passionate about making easy-to-use, accessible and responsive
-                  user interfaces
-                </span>
-              </p>
+              <h3>LISA CANINI</h3>
+              <p>Full Stack Web Developer</p>
             </Col>
           </Row>
         </Navbar.Brand>
@@ -29,8 +22,12 @@ const Header = () => {
         <Navbar.Toggle aria-controls='responsive-navbar-nav' id='nav-button' />
         <Navbar.Collapse id='responsive-navbar-nav'>
           <Nav className='ml-auto'>
-            <Nav.Link href='#bio'>About</Nav.Link>
-            <Nav.Link href='#contact'>Contact</Nav.Link>
+            <Col>
+              <Nav.Link href='#bio'>About</Nav.Link>
+            </Col>
+            <Col>
+              <Nav.Link href='#contact'>Contact</Nav.Link>
+            </Col>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
