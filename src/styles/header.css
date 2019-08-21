@@ -1,5 +1,5 @@
 .navbar {
-  background: #417C89;
+  background: #17a2b8;
   align-items: flex-end;
 }
 
@@ -8,11 +8,11 @@ a.d-inline.align-top.navbar-brand {
 }
 
 .navbar-brand img {
-  max-width: 100%;
+  max-width: 200%;
+  align-self: center;
 }
 
 h3 {
-  /* margin-top: 5%; */
   font-size: 1.5rem;
   color: white !important;
   font-family: 'Open Sans', sans-serif;
@@ -40,10 +40,6 @@ a.nav-link {
 }
 
 @media (min-width: 768px) {
-  .navbar-brand img {
-    /* margin-left: 10%;
-    max-width: 70%; */
-  }
   button {
     margin: 0 10px !important;
   }

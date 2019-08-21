@@ -5,7 +5,7 @@ import { Container, Row, Button, Form } from 'react-bootstrap';
 
 const Contact = () => {
   return (
-    <Container>
+    <Container id='contact'>
       <Form action='https://formspree.io/lisaceedesign@gmail.com' method='POST'>
         <h3>Contact Me</h3>
         <p>

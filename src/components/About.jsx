@@ -6,7 +6,7 @@ import { Container } from 'react-bootstrap';
 const About = () => {
   return (
     <div>
-      <Container>
+      <Container id='about'>
         <h1>Hi. I'm Lisa Cee.</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget

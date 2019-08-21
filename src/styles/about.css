@@ -2,8 +2,9 @@ h1, h3 {
     color: #8ad1d8;
 }
 
-p {
+#about p {
     font-size: 1rem;
+    color: black;
 }
 
 ul li {

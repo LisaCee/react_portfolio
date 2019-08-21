@@ -28,7 +28,7 @@ const Gallery = () => {
               <Card image={require('../images/book-finder.gif')} />
             </a>
             <div className='details'>
-              <i className='fab fa-react fa-lg' />
+              <i className='fab fa-react fa-lg' title='react'/>
               <i className='fab fa-css3 fa-lg' />
               <i className='fab fa-bootstrap fa-lg' />
               <i className='fab fa-google fa-lg' />
