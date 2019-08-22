@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/header.css';
-import Logo from '../images/LisaCee.png';
+import Logo from '../images/Logo_Blue_sm.jpg';
 import { Navbar, Nav, Row, Col } from 'react-bootstrap';
 
 const Header = () => {
